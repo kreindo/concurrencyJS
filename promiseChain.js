@@ -22,7 +22,7 @@ checkFabr = ({ isFunctional, reqMaint }) => {
 }
 
 const installWires = () => {
-  return new Promies((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve('Wire installed')
 
